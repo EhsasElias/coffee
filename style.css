@@ -1,0 +1,391 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial;
+	
+}
+@font-face {
+	font-family: 'Emilys Candy';
+	src: url('font-awesome/fonts/CurlzMT.ttf');
+}
+#logo{
+	font-family: 'Curlz MT';
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+	margin-left: 0;
+	margin-right: 14%;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #2e1b0d;
+	padding: 5px;
+	
+  }
+  
+  .topnav a {
+	
+	float: left;
+	display: block;
+	color: #aaa1a1;
+	text-align: center;
+	padding: 14px 6px;
+	text-decoration: none;
+	font-size: 13px;
+	margin-left: 15px;
+  }
+  
+  
+  .topnav a.active {
+	border-radius: 4px;
+	background-color: #8e5229;
+	color: wheat;
+	border: 1px wheat solid;
+	
+  }
+  
+  .topnav .icon {
+	display: none;
+  }
+  .topnav a:not(:first-child) {
+	  margin-top: 8px;
+	  
+  }
+  .navright{
+	margin-top: 9px; 
+	background-color: inherit;
+	color: white !important; 
+	border: 1px #8e5229 solid;
+	border-radius: 4px;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 5px;
+	margin-left: 0 !important;
+
+  }
+  .navrightdiv {  
+	float: right;
+  }
+ 
+  .fa{
+	  padding-left: 5px;
+
+  }
+ .navright .fa{
+	  font-size: 15px;
+  }
+  @media screen and (max-width: 800px) {
+	.topnav a:not(:first-child) ,.navright{display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	  margin-top: 9px;
+	  font-size: 20px;
+	  border: 1px white solid;
+	  border-radius: 4px;
+	  padding: 8px 10px 8px 5px;
+	 
+	}
+	.navrightdiv {  
+		
+		float: left;
+	  }
+	  .navright{
+		border: none;
+		color: #8d7a7a !important;
+	    margin-left: 15px !important;
+		
+	  }
+	  
+	   
+  }
+  
+  @media screen and (max-width: 800px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	  position: absolute;
+	  right: 5px;
+	  top: 5px;
+	  font-size: 20px;
+	  border: 1px white solid;
+	  border-radius: 4px;
+	  padding: 8px 10px 8px 5px;
+	  background-color: #8e5229;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	
+  }
+  @media screen and (max-width:1010px)
+  {
+	.bgdivs{
+		width: 90vw !important;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.divfooter{
+		width: 100% !important;
+	} 
+	
+  }
+
+  @media screen and (max-width:900px){
+ 
+  .mid2container{
+	  width: 96vw !important;
+  }
+  .mid1bg .bgdivs{
+	  margin: 1% auto;
+  }
+  .mid2parent{
+	margin: 5% auto;
+  }
+  .bgmidtwo{
+	  width: 100% !important;
+	 
+	
+  }
+
+  .bgopacity{
+	  height: 100% !important;
+  }
+  .divfooter div{
+	width: 93vw !important;
+	display: flex !important;
+	justify-content: space-between !important;
+}
+.bgdiv{
+	margin: 1% !important;
+	height: 110px !important;
+	width: 140px !important;
+} 
+  }
+ 
+  .bg
+  {
+	  height: 60vh;
+	  background-image: url('images/coffee4.jpg');
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	 background-position: center;
+  }
+  .bg div{
+	  width: 70%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  flex-wrap: wrap;
+	  margin: auto;
+	  height: 100%;
+	  padding-top: 20px;
+  }
+  .bghed{
+	  width: 100%;
+	  color: #2e1b0d;
+	  font-family: 'Curlz MT';
+	  font-size: 65px;
+	  text-align: center;
+	  padding-top: 10%;
+	 
+  }
+  .bgpara{
+	 width: 100%;
+	  font-weight:900;
+	  font-size: 15px;
+	  text-align: center;
+  }
+  .bgbutt {
+	width: 100%;
+	text-align: center;
+  }
+  .bgbutt button{
+	font-family: Cairo;
+	 align-self: flex-start;
+	 background-color: #634932;
+	 border-radius: 4px;
+	 font-weight: bold;
+	font-size: 20px; 
+	 border: none;
+	 color: white;
+	padding:0 10px;
+	margin-top: 5%;
+	
+  }
+  .mid1bg{
+	  
+	  width: 100% ;
+	  height: 40vh;
+	  
+  }
+  .bgdivs{
+	  
+	margin: auto;
+	height: 80%;
+	  width: 800px;
+	display: flex;
+	justify-content: space-between; 
+	 align-items: flex-end;
+}
+  .bgdiv{
+	  color: #2e1b0d;
+	  font-family: Cairo;
+	  font-weight: bold;
+	  background-repeat: no-repeat;
+	background-position:center 30%;
+	background-size: auto 35px;
+	height: 110px;
+    width: 150px;
+	text-align: center;
+	margin: auto 1%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ .bgdiv p{
+	 position: relative;
+	 top: 50%;
+	 height: 30px;
+	 margin-top: auto;
+ }
+.bgdivs .bg1{
+	  background-image: url('images/2.png');
+
+  }
+  .bgdivs .bg2{
+	background-image: url('images/10.jfif');
+}
+.bgdivs .bg3{
+	background-image: url('images/4.png');
+}
+.bgdivs .bg4{
+	background-image: url('images/5.png');
+}
+.bgdivs .bg5{
+	background-image: url('images/6.jfif');
+}
+.bgdivs .bg6{
+	background-image: url('images/5.png');
+}
+
+.mid2parent{
+	
+	width: 100%;
+}
+.mid2container{
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.mid2container .bgmidtwo{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+    width: 49%;
+	margin-top: 10px;
+	box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.4) ;
+}
+.mid2container .bgmid1{
+	background-image: url('images/img1.jfif');
+}
+.mid2container .bgmid2{
+	background-image: url('images/img2.jfif');
+}
+.mid2container .bgmid3{
+	background-image: url('images/img4.jfif');
+}
+.mid2container .bgmid4{
+	background-image: url('images/img3.jfif');
+}
+.bgopacity{
+	font-family:Cairo;
+	color: white;
+	height: 98%;
+	width: 100%;
+	
+
+	
+}
+.bgopacity div{
+	width: 55%;
+	position: relative;
+	top: 50%;
+    left: 5%;
+}
+.bgopacity div .p1{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.bgopacity div .p2{
+
+	font-size:12px;
+	line-height: 20px;
+}
+.bgopacity div button{
+	color: #8e5229;
+	border: none;
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 3px;
+	background-color: white;
+
+}
+footer{
+	
+	background-color: #2e1b0d;
+	color: white;
+	height: 15vh;
+	margin-top: 7%;
+	
+}
+.divfooter{
+	
+	width: 900px;
+	margin: auto;
+	height: 60%;
+	position: relative;
+	top: 25%;
+}
+.divfooter div{
+	
+width: 80%;
+margin-right: auto;
+margin-left: 2%;
+display: flex;
+justify-content: space-between;
+align-content: center;
+}
+
+hr{
+	width: 100%;
+	margin-top: 5px;
+}
+.copyright{
+	text-align: center;
+}
+.copyright span{
+	font-family: 'Curlz MT';
+	font-style: italic;
+}
+#up{
+	border-radius: 50%;
+	background-color: #8e5229;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 30px;
+	font-size: 10px;
+	padding-right: 5px;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+}
